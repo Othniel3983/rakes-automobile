@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    padding: 0 5rem;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.nav_bar > li {
+    list-style-type: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav_bar > li:hover {
+    transform: scale(0.9);
+}
+
+a {
+    text-decoration: none;
+    color: #0a0a0a;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+    color: #100e9c;
+}
+
+.sign_in {
+    margin-left: 5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.sign_in:hover {
+    transform: scale(1.1);
+    color: red;
+}
+
+.register {
+    background: #040354;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in;
+}
+
+.register:hover {
+    background: #fff;
+    border: 2px solid #040354;
+    color: #040354;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.hero_container {
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    grid-template-rows: auto auto;
+    margin-top: 0;
+    padding: 5rem 5rem;
+}
+
+.hero_image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+h5 {
+    margin-top: 5rem;
+    margin-bottom: 10px;
+}
+
+.save {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(1rem, 3vw, 3.2rem);
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.contribute {
+    color: #2b2727;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+span {
+    color: #0f0d85;
+}
+
+/* Make anchors behave like buttons for hero actions */
+button.hero_btn, a.hero_btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-transform: capitalize;
+    font-size: 0.2rem;
+    text-decoration: none;
+}
+
+/* Apply variant styles to both buttons and anchors */
+button.book_ride, a.book_ride {
+    background: #100e9c;
+    color: #fff;
+    border: 0;
+    transition: all 0.5s ease;
+}
+
+button.book_ride:hover, a.book_ride:hover {
+    background: #fff;
+    color: #0a0a0a;
+    border: 2px solid #040354;
+}
+
+button.learn_more, a.learn_more {
+    background: #0a0a0a;
+    color: #fff;
+    border: 0;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+}
+
+button.learn_more:hover, a.learn_more:hover {
+    background: #fff;
+    color: #0a0a0a;
+    border: 2px solid #0a0a0a;
+}
+
+/* Ensure variant colors apply to nested anchors as well */
+.book_ride a { color: #fff; }
+.learn_more a { color: #fff; }
+.book_ride:hover a { color: #0a0a0a; }
+.learn_more:hover a { color: #0a0a0a; }
+
+button > a {
+    font-size: 0.7rem;
+}
+
+/* .block--skewed-right {
+    margin-bottom: 10rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+} */
+
+.block--skewed-left {
+    margin-bottom: 10rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
