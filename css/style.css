@@ -2,7 +2,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     font-size: 1.5rem;
-    position: relative;
 }
 
 header {
@@ -85,6 +84,7 @@ a:hover {
 }
 
 .hero_container {
+    position: relative;
     background: linear-gradient(120deg, #fab39d 5%, #fff 100%);
     /* background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
     background-repeat: no-repeat;
@@ -95,6 +95,7 @@ a:hover {
     grid-template-rows: auto auto;
     margin-top: 0;
     padding: 5rem 5rem;
+    padding-top: 8rem;
 }
 
 /* .block--skewed-right {
@@ -200,7 +201,11 @@ button > a {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 2);
     margin: 0 8rem;
     position: absolute;
-    top: 90%;
+    left: 40%;
+    right: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    z-index: 20;
 }
 
 .booking_container > h3 {
@@ -292,4 +297,47 @@ button > a {
     color: #ff2400;
     border: 2px solid #ff2400;
     transform: scale(1.1);
+}
+
+.booking_container > img {
+    margin-left: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: auto;
+    width: auto;
+}
+
+/* callout component */
+.callout_container {
+    margin-top: 38rem;
+    text-align: center;
+}
+
+.callout_container > h2 {
+    margin-top: 0;
+}
+
+.callout_container > .callout_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+.callout_container > .callout_content > .content {
+    width: 20rem;
+}
+
+.callout_container > .callout_content > .content > img {
+    width: 150px;
+}
+
+.callout_container > .callout_content > .content > h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.callout_container > .callout_content > .content > p {
+    margin-top: 0;
+    line-height: 1.2;
 }
