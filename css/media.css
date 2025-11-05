@@ -62,7 +62,7 @@
         border-top: 5px solid #ff2400;
         border-bottom: 2px solid #ff2400;
         position: absolute;
-        top: 165%;
+        top: 146%;
         transform: none;
         margin: 0;
         left: 0;
@@ -85,8 +85,24 @@
         margin-left: 1rem;
     }
 
+    .callout_container > .callout_content {
+        padding: 0;
+    }
+
     .callout_container {
-        margin-top: 51rem;
+        margin-top: 55rem;
+    }
+
+    .showcase_container {
+        margin: 0;
+    }
+
+    .showcase_container p {
+        padding: 0;
+    }
+
+    .showcase_container img {
+        width: 100%;
     }
 }
 

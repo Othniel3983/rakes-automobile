@@ -341,3 +341,149 @@ button > a {
     margin-top: 0;
     line-height: 1.2;
 }
+
+/* showcase component */
+
+.showcase_container {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+}
+
+.showcase_container h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.showcase_container p {
+    margin-top: 0;
+    padding: 0 15rem;
+    font-size: 1.2rem;
+}
+
+.showcase_container img {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* about component */
+
+.about_company {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    grid-template-rows: auto auto;
+    gap: 5rem;
+    padding: 0 5rem;
+    margin-top: 7rem;
+}
+
+.about_company_image img {
+    width: 100%;
+    height: 90%;
+    padding-top: 2rem;
+}
+
+.about_company_content h6 {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.about_company_content h1 {
+    margin-top: 0;
+    line-height: 1;
+    padding-right: 2rem;
+}
+
+.about_company_content article {
+    font-size: 1.2rem;
+}
+
+.about_company_content .stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5rem;
+    margin: 2rem;
+}
+
+.about_company_content .stats .types span {
+    color: #000;
+    font-weight: 800;
+}
+
+.about_company_content .stats .types p {
+    margin-top: 0;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.about_company_content .stats .outlets span {
+    color: #000;
+    font-weight: 800;
+}
+
+.about_company_content .stats .outlets p {
+    margin-top: 0;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.about_company_content .stats .shops span {
+    color: #000;
+    font-weight: 800;
+}
+
+.about_company_content .stats .shops p {
+    margin-top: 0;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+/* .callout_container2 */
+.callout_container2 {
+    background-image: url(/images/Untitled-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 5rem;
+    padding: 2rem 5rem;
+    align-items: center;
+}
+
+.callout_container2 h1 {
+    color: #fff;
+    padding-right: 5rem;
+    margin-bottom: 1rem;
+    line-height: 1;
+}
+
+.callout_container2 p {
+    color: #fff;
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.callout_container2 button {
+    background: #ff2400;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    padding-top: 0;
+    justify-self: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.callout_container2 button a {
+    color: #fff;
+}
+
+.callout_container2 button:hover {
+    transform: scale(1.1);
+    border: 2px solid #fff;
+}
