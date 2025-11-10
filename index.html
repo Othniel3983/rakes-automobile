@@ -18,7 +18,7 @@
       <nav>
         <ul class="nav_bar">
           <li><a href="#">home</a></li>
-          <li><a href="#">about</a></li>
+          <li><a href="#about_company">about</a></li>
           <li><a href="#">vehicle model</a></li>
           <li><a href="#">testimonials</a></li>
           <li><a href="#">our team</a></li>
@@ -60,15 +60,25 @@
           <input type="email" required placeholder="Email" />
           <input type="text" required placeholder="country" />
           <input type="number" required placeholder="phone number" />
-          <select name="" id="" required>
+          <select name="brand" id="" required>
             <option value="">select brand</option>
             <option value="1">Benz</option>
             <option value="2">Hundia</option>
             <option value="3">Honda</option>
             <option value="4">Toyota</option>
           </select>
-          <input type="date" required placeholder="pickup date" />
-          <input type="date" required placeholder="drop off date" />
+          <input
+            type="datetime"
+            name="pickup_date"
+            required
+            placeholder="pickup date"
+          />
+          <input
+            type="datetime"
+            name="pickup_date"
+            required
+            placeholder="drop off date"
+          />
           <button type="submit">inquiry now</button>
         </form>
         <img src="./images/flet_of_cars.png" alt="" />
@@ -112,9 +122,9 @@
         </p>
         <img src="./images/booking_cars_2.png" alt="" />
       </section>
-      <section class="about_company">
+      <section id="about_company">
         <div class="about_company_image">
-          <img src="./images/Untitled-2.jpg" alt="" />
+          <img src="./images/about_photo.jpg" alt="" />
         </div>
         <div class="about_company_content">
           <h6>about company</h6>
@@ -129,14 +139,21 @@
           </article>
           <div class="stats">
             <div class="types">
+              <div class="icon icon_1">
+                <i class="fa-solid fa-truck-moving"></i>
+              </div>
               <span>20</span>
               <p>car types</p>
             </div>
             <div class="outlets">
+              <div class="icon">
+                <i class="fa-solid fa-house-medical-flag"></i>
+              </div>
               <span>85</span>
               <p>rental outlets</p>
             </div>
             <div class="shops">
+              <div class="icon"><i class="fa-solid fa-shop"></i></div>
               <span>75</span>
               <p>repair shop</p>
             </div>
@@ -151,6 +168,47 @@
         <button>
           <a href="#">book ride <i class="fa-solid fa-circle-check"></i></a>
         </button>
+      </section>
+      <section class="deals">
+        <div class="deals_content1">
+          <h6>why choose us</h6>
+          <h1>Best valued deals you will ever find</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            deleniti similique unde veniam. Molestias tempora laudantium ipsum
+            inventore laborum exercitationem!
+          </p>
+          <button class="btn_deals"><a href="#">find deals</a></button>
+        </div>
+        <div class="deals_content2">
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <h4>cross country drive</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+              aspernatur ut beatae quaerat animi vero odit ipsam praesentium
+              reprehenderit laboriosam.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-money-check-dollar"></i>
+            <h4>all inclusive pricing</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              sequi assumenda iusto unde quidem quo, voluptatem rem. Eius,
+              quaerat provident!
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-money-bill"></i>
+            <h4>no hidden charges</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+              sequi recusandae assumenda sed reprehenderit necessitatibus
+              adipisci pariatur, at et quisquam?
+            </p>
+          </div>
+        </div>
       </section>
     </main>
   </body>
