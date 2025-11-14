@@ -56,7 +56,7 @@
         padding-top: 1rem;
     }
 
-    .booking_container {
+    #booking_container {
         width: 100%;
         margin: 0;
         border-top: 5px solid #ff2400;
@@ -69,18 +69,18 @@
         right: 0;
     }
 
-    .booking_container > p {
+    #booking_container > p {
         padding: 0;
     }
 
-    .booking_container > form {
+    #booking_container > form {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .booking_container > img {
+    #booking_container > img {
         width: 95%;
         margin-left: 1rem;
     }
@@ -131,6 +131,30 @@
 
     .callout_container2 {
         display: block;
+    }
+
+    #about_company {
+        display: block;
+    }
+
+    .deals {
+        display: block;
+    }
+
+    #testimony_container p {
+        padding: 0;
+    }
+
+    .individual_testimony {
+        margin: 0;
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer .working_hours {
+        margin: 0;
     }
 }
 

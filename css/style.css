@@ -193,7 +193,7 @@ button > a {
 
 /* booking component */
 
-.booking_container {
+#booking_container {
     background: #fff;
     width: 80%;
     border: 0;
@@ -208,14 +208,14 @@ button > a {
     z-index: 20;
 }
 
-.booking_container > h3 {
+#booking_container > h3 {
     text-transform: capitalize;
     text-align: center;
     font-weight: 800;
     margin-bottom: 1rem;
 }
 
-.booking_container > p {
+#booking_container > p {
     color: #444242;
     font-size: 0.9rem;
     font-weight: 600;
@@ -225,13 +225,13 @@ button > a {
     margin-bottom: 1.5rem;
 }
 
-.booking_container > form {
+#booking_container > form {
     grid-column: 1 / -1;
     justify-self: stretch;
     padding: 0 2rem;
 }
 
-.booking_container > form > input {
+#booking_container > form > input {
     background: #fab39d;
     width: 13rem;
     border: 0;
@@ -246,15 +246,15 @@ button > a {
     transition: all 0.5s ease-in;
 }
 
-.booking_container > form > input[type="email"] {
+#booking_container > form > input[type="email"] {
     text-transform: none;
 }
 
-.booking_container > form > input:hover {
+#booking_container > form > input:hover {
     border: 2px solid #ff2400;
 }
 
-.booking_container > form > select {
+#booking_container > form > select {
     background: #fab39d;
     width: 14rem;
     border: 0;
@@ -269,11 +269,11 @@ button > a {
     transition: all 0.5s ease-in;
 }
 
-.booking_container > form > select:hover {
+#booking_container > form > select:hover {
     border: 2px solid #ff2400;
 }
 
-.booking_container > form > button {
+#booking_container > form > button {
     background: #ff2400;
     color: #fff;
     width: 14.5rem;
@@ -292,14 +292,14 @@ button > a {
     transition: all 0.5s ease-in-out;
 }
 
-.booking_container > form > button:hover {
+#booking_container > form > button:hover {
     background: #fff;
     color: #ff2400;
     border: 2px solid #ff2400;
     transform: scale(1.1);
 }
 
-.booking_container > img {
+#booking_container > img {
     margin-left: 8rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -492,6 +492,7 @@ button > a {
 .callout_container2 button {
     background: #ff2400;
     border: 0;
+    border-radius: 5px;
     width: 100px;
     height: 40px;
     padding-top: 0;
@@ -609,6 +610,7 @@ button > a {
     text-align: center;
     margin-top: 0;
     padding-top: 1rem;
+    padding-bottom: 3rem;
 }
 
 #testimony_container h6 {
@@ -678,6 +680,8 @@ button > a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 0.7rem;
+    background: #f05c46;
+    color: #f5f4f4;
     border-top: 2px solid #ff2400;
     border-radius: 10px;
     margin-top: 5rem;
@@ -687,13 +691,13 @@ button > a {
  }
 
  footer .car_rental h4 {
+    color: #010024;
     text-transform: uppercase;
     margin-bottom: 0;
  }
 
  footer .car_rental p {
     font-size: 1rem;
-    color: #2b2727;
     margin-top: 0;
  }
 
@@ -707,6 +711,7 @@ button > a {
     margin-left: 3rem;
  }
  footer .working_hours h4 {
+    color: #010024;
     text-transform: uppercase;
     margin-bottom: 0;
  }
@@ -714,11 +719,11 @@ button > a {
  footer .working_hours p {
     font-size: 1rem;
     font-weight: 600;
-    color: #000;
     margin-top: 0;
  }
 
  footer .company h4 {
+    color: #010024;
     text-transform: uppercase;
     margin-bottom: 0;
  }
@@ -726,7 +731,6 @@ button > a {
  footer .company p {
     font-size: 1rem;
     font-weight: 600;
-    color: #777676;
     margin-top: 0;
  }
 
@@ -746,7 +750,7 @@ button > a {
     border: 0;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
-    background: #ff2400;
+    background: #04028a;
     color: #fff;
     font-size: 0.8rem;
     font-weight: 600;
@@ -757,7 +761,7 @@ button > a {
  }
 
  footer .company input:hover {
-    border: 1px solid #ff2400;
+    border: 1px solid #04028a;
  }
 
  footer .company button:hover {
